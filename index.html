@@ -5,13 +5,9 @@
     <title>WebP sandbox</title>
   </head>
   <body>
-    <h1>Original JPEG</h1>
-    <img src="lena.jpg">
-    <h1>WebP 1 segment</h1>
-    <img src="lena-1segment.webp">
-    <h1>WebP 4 segments</h1>
-    <img src="lena-4segments.webp">
-    <h1>WebP 4 segments and 100 partitions</h1>
-    <img src="lena-4segments-100parts.webp">
+    <h1>-partition_limit 100 -segments 4</h1>
+    <img height=100px src="progressive.webp">
+    <h1>-segments 1</h1>
+    <img height=100px src="baseline.webp">
   </body>
 </html>
